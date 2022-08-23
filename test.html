@@ -4,6 +4,7 @@
   <body>
     <div id="chart">
       <!-- //container -->
+      <!--  -->
     </div>
 
     <!-- <div class="wrapper-layer">
@@ -111,7 +112,7 @@
               },
               value: {
                 formatter: function (val) {
-                  return parseInt(val);
+                  return parseInt(val)
                 },
                 color: "#111",
                 fontSize: "36px",
@@ -159,10 +160,10 @@
           lineCap: "round",
         },
         labels: ["Percent"],
-      };
+      }
 
-      var chart = new ApexCharts(document.querySelector("#chart"), options);
-      chart.render();
+      var chart = new ApexCharts(document.querySelector("#chart"), options)
+      chart.render()
     </script>
   </body>
 </html>
