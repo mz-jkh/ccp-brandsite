@@ -268,3 +268,37 @@
     }
   }
 }
+
+// 메인 이벤트 팝업 - 2022.08.30 작업
+.main-event {
+  .wrap-layer {
+    padding: 3.5rem 3rem 5.5rem;
+
+    .body {
+      padding-bottom: 0;
+    }
+    .btn-close {
+      top: 3.5rem;
+      right: 3.0rem;
+    }
+    .desc {
+      margin-top: 2rem;
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    .wrap-button {
+      margin-top: 2rem;
+      text-align: center;
+
+      a {
+        display:inline-block;
+        padding: 0 4rem;
+        line-height: 5rem;
+        font-size: 1.5rem;
+        color: #fff;
+        border-radius: 2.5rem;
+        background-color: #111;
+      }
+    }
+  }
+}
