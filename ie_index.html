@@ -208,6 +208,22 @@
       <div class="mask"></div>
     </div> -->
 
+    <!-- 이벤트 팝업 -->
+    <div class="wrapper-layer main-event">
+      <div class="wrap-layer" style="width: 640px">
+        <div class="head">
+          <h1 class="title">SK에너지 머핀 포인트 행사 안내</h1>
+        </div>
+        <div class="body">
+          <div class="wrap-img"><img src="assets/img/main-event-popup-220830.png" alt="DRIVE INTO NEW ROAD" /></div>
+          <p class="desc">머핀 포인트로 당신의 취향 저격 사은품을 신청하세요!</p>
+          <div class="wrap-button"><a href="https://www.enclean.com/front/pointevent/member/index/" target="_blank" class="evt-btn">사은품 신청하기</a></div>
+        </div>
+        <a href="javascript:popClose();" class="btn-close"><img src="assets/img/btn_close.png" alt="SK energy" /></a>
+      </div>
+      <div class="mask"></div>
+    </div>
+
     <script>
       var fnTab = (function () {
         var wrapTab = document.querySelector(".wrap-tab");
@@ -291,9 +307,9 @@
         window.open(store, "", "");
       }
 
-      // function popClose() {
-      //   document.querySelector(".wrapper-layer").style.cssText = "display:none";
-      // }
+      function popClose() {
+        document.querySelector(".wrapper-layer").style.cssText = "display:none";
+      }
     </script>
   </body>
 </html>
